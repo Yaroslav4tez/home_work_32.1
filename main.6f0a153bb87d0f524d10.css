@@ -1,0 +1,167 @@
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/header/header.scss ***!
+  \*****************************************************************************************************************/
+.containerHeader {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  background-image: url(fa78b6d5f1ee6544520d.svg);
+}
+.containerHeader .headerBtn {
+  background-color: rgb(255, 251, 251);
+  color: rgb(0, 0, 0);
+}
+/*!****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/forMain.scss ***!
+  \****************************************************************************************************************/
+img {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwMCIgaGVpZ2h0PSIxMzAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogPGcgaWQ9IkxheWVyXzEiPgogIDx0aXRsZT5MYXllciAxPC90aXRsZT4KICA8cmVjdCBpZD0ic3ZnXzgiIGhlaWdodD0iMi4yMjIyMiIgd2lkdGg9IjQuNDQ0NDQiIHk9IjExOS4zMzMxNSIgeD0iNDQuNDQ0MDkiIHN0cm9rZT0iIzAwMCIgZmlsbD0iIzU0NjQzMyIvPgogIDxyZWN0IGlkPSJzdmdfOSIgaGVpZ2h0PSI1MTUuNTU1NDQiIHdpZHRoPSI1OTcuNzc3NjQiIHk9Ii0xOC40NDQ1OSIgeD0iLTYuNjY3MDEiIHN0cm9rZT0iIzAwMCIgZmlsbD0iIzREMjQyNSIvPgogIDxyZWN0IGlkPSJzdmdfMTAiIGhlaWdodD0iNTA4Ljg4ODc4IiB3aWR0aD0iNjAyLjIyMjA5IiB5PSI0NDMuNzc3NTMiIHg9IjM5OS45OTk1NiIgc3Ryb2tlPSIjMDAwIiBmaWxsPSIjQ0M3QzY1Ii8+CiAgPHJlY3QgaWQ9InN2Z18xMSIgaGVpZ2h0PSI2NTMuMzMzMTkiIHdpZHRoPSIxMDg2LjY2NjQyIiB5PSItMjUuMTExMjYiIHg9IjU1NS41NTUwOCIgc3Ryb2tlPSIjMDAwIiBmaWxsPSIjODk0RjNGIi8+CiAgPHJlY3QgaWQ9InN2Z18xMiIgaGVpZ2h0PSI3OTkuOTk5ODIiIHdpZHRoPSI3NzEuMTEwOTQiIHk9IjExOS4zMzMxNSIgeD0iMTI0NC40NDM4MiIgc3Ryb2tlPSIjMDAwIiBmaWxsPSIjNkQ5N0FCIi8+CiAgPHJlY3QgaWQ9InN2Z18xMyIgaGVpZ2h0PSI5MjguODg4NjgiIHdpZHRoPSIxMTE1LjU1NTMxIiB5PSIzNzcuMTEwODciIHg9Ijg5MS4xMTA1NiIgb3BhY2l0eT0iTmFOIiBzdHJva2U9IiMwMDAiIGZpbGw9IiM0MjYzNzMiLz4KICA8cmVjdCBpZD0ic3ZnXzE0IiBoZWlnaHQ9IjgzNy43Nzc1OSIgd2lkdGg9IjU1OS45OTk4NyIgeT0iNDc3LjExMDg1IiB4PSItMTEuMTExNDYiIG9wYWNpdHk9Ik5hTiIgc3Ryb2tlPSIjMDAwIiBmaWxsPSIjRkZBRkNDIi8+CiAgPHJlY3QgaWQ9InN2Z18xNSIgaGVpZ2h0PSI0ODYuNjY2NTYiIHdpZHRoPSI1MDQuNDQ0MzMiIHk9Ijg0NS45OTk2NiIgeD0iNDM5Ljk5OTU1IiBvcGFjaXR5PSJOYU4iIHN0cm9rZT0iIzAwMCIgZmlsbD0iI0ZGREZCOCIvPgogIDxyZWN0IGlkPSJzdmdfMTYiIGhlaWdodD0iMjY2LjY2NjYxIiB3aWR0aD0iNDUzLjMzMzIzIiB5PSItMzYuMjIyMzciIHg9IjE1NzMuMzMyNjMiIHN0cm9rZT0iIzAwMCIgZmlsbD0iIzhDRDc5RiIvPgogIDxyZWN0IGlkPSJzdmdfMTciIGhlaWdodD0iMi4yMjIyMiIgd2lkdGg9IjAiIHk9IjM3Mi42NjY0MyIgeD0iMjE1NS41NTQ3MiIgc3Ryb2tlPSIjMDAwIiBmaWxsPSIjMGYwMTZiIi8+CiAgPHJlY3QgaWQ9InN2Z18xOSIgaGVpZ2h0PSI2NTkuOTk5ODUiIHdpZHRoPSIzMjguODg4ODIiIHk9IjY0NS45OTk3IiB4PSIxMjQ0LjQ0MzgyIiBvcGFjaXR5PSJOYU4iIHN0cm9rZT0iIzAwMCIgZmlsbD0iIzVCOUJBMiIvPgogIDxyZWN0IGlkPSJzdmdfMjAiIGhlaWdodD0iNTk3Ljc3NzY0IiB3aWR0aD0iNTk5Ljk5OTg3IiB5PSIzNTkuMzMzMSIgeD0iMTQ1Ny43NzcxIiBvcGFjaXR5PSJOYU4iIHN0cm9rZT0iIzAwMCIgZmlsbD0iI0FGODRBMyIvPgogPC9nPgoKPC9zdmc+);
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+.mainContent {
+  padding-left: 30px;
+  background-color: rgb(246, 241, 236);
+}
+
+footer {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: antiquewhite;
+}
+footer .avatar {
+  background-color: rgb(247, 248, 248);
+}
+
+#myPhoto {
+  display: flex;
+  justify-content: center;
+}
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/todo/todo.scss ***!
+  \*************************************************************************************************************/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form__input {
+  display: flex;
+  gap: 20px;
+}
+.form__input .form__input_Field {
+  width: 400px;
+  height: 25px;
+}
+.form__input .form__btn {
+  height: 25px;
+}
+
+.todos_container {
+  padding-top: 40px;
+}
+.todos_container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.todos_container .todo_item_description {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  height: 25px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.todos_container .todo_item_delete {
+  margin-left: auto;
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/swapi/swapi.scss ***!
+  \***************************************************************************************************************/
+.star-wars-bg-container {
+  background-image: url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhciUyMHdhcnMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  width: 500px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-wars-crawl {
+  position: relative;
+  top: 100px;
+  font-family: "Arial Black", sans-serif;
+  font-size: 2rem;
+  color: yellow;
+  text-align: center;
+  animation: crawl 90s linear forwards;
+  transform-origin: 50% 100%;
+}
+
+@keyframes crawl {
+  0% {
+    top: 100%;
+    transform: rotateX(20deg) translateZ(0);
+  }
+  100% {
+    top: -200%;
+    transform: rotateX(25deg) translateZ(-500px);
+  }
+}
+.containerSwapi {
+  background-color: black;
+  padding-top: 30px;
+  display: flex;
+  gap: 100px;
+}
+
+.rightContainer {
+  justify-content: center;
+  padding-right: 200px;
+  flex: 1;
+}
+.rightContainer h1 {
+  text-align: center;
+}
+
+.peopleStyle {
+  color: yellow;
+}
+
+#demo-simple-select-label {
+  color: yellow;
+}
+
+.select {
+  background-color: rgb(106, 106, 90);
+}
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss ***!
+  \********************************************************************************************************/
+body {
+  background-color: bisque;
+}
+/*!*******************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/App.scss ***!
+  \*******************************************************************************************************/
+
+
+/*# sourceMappingURL=main.6f0a153bb87d0f524d10.css.map*/
