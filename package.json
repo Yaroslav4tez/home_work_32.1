@@ -17,9 +17,11 @@
     "styled-components": "^6.1.19",
     "webpack-dev-server": "^5.2.2"
   },
+  "homepage": "https://yaroslav4tez.github.io/home_work_32.1/",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server",
+    "start": "webpack serve --mode development --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
