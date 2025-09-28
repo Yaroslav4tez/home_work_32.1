@@ -1,0 +1,42 @@
+img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    background-image: url('../img/svg.svg');
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+.mainContent {
+    padding-left: 30px;
+    background-color: rgb(246, 241, 236);
+}
+
+
+
+footer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: antiquewhite;
+    .avatar{
+        background-color: rgb(247, 248, 248);
+    }
+}
+
+#myPhoto {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+

@@ -1,0 +1,12 @@
+.containerHeader {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-image: url('../img/vitrageHeder.svg');
+    .headerBtn {
+        background-color: rgb(255, 251, 251);
+        color: rgb(0, 0, 0);
+    }
+}
