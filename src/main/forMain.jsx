@@ -1,7 +1,6 @@
 import React from "react";
 //img
-import dyplomFront from "../img/dyplomFront.jpg";
-import dyplomBack from "../img/dyplomBack.jpg";
+import dyplom from "../img/dyplom.jpg";
 import hw14 from "../img/homeWorkImg/14.1.png";
 import hw20 from "../img/homeWorkImg/20.1.png";
 import hw22 from "../img/homeWorkImg/22.1.png";
@@ -128,80 +127,63 @@ const Main = () => {
     return <div className="containerMain">
         <main>
             <div className="mainContent">
-                <Typography variant="h2" gutterBottom>Портфоліо</Typography>
-                <Typography variant="h3" gutterBottom>Освіта</Typography>
-                <Typography variant="h4" gutterBottom>hillel It school</Typography>
+                <Typography variant="h3" gutterBottom>Front-End Developer</Typography>
+                <Typography variant="h4" gutterBottom>ABOUT ME</Typography>
                 <Typography variant="body1" gutterBottom component="div">
-                    <p>Курс: "front-end PRO", червень-жовтень 2026</p>
-                    <p>Завершив чотирьох місячний курс по java script. Познайомився з багатьма сучасними фреймворками, бібліотеками, менеджерами станів <br />
-                        Вивчав роботу з репозиторієм GitHub, використовував в домашніх завданнях: Оператори, Цикли, Функції: замикання, колбеки, стрілкові функції,
-                        рекурсія; Масиви, Об'єкти. 
+                    <p> I am a Front-End Developer based in Winnipeg, Canada.
+                        I have a strong technical background as a CNC press brake operator with 8+ years of experience, which taught me precision, problem-solving, and working with complex technical drawings.
+                        Recently, I transitioned into web development and completed a Front-End PRO course, where I gained practical experience building web applications using JavaScript, React, and modern tools.
+                        I am currently focused on building real-world projects and growing into a professional developer role.
                     </p>
-                    <p>
-                        Вивчав під час навчання: DOM та Event, WebStorage, OOП, Класи, Асинхронність.
-                    </p>
-                    <p>
-                        Познайомився з техтологією використання: Бібліотек, Babel, Webpack, React, Redux, Node.js, Форми, Тестування, MongoDB.
+                    <p>I build responsive and user-friendly web applications using modern JavaScript technologies.
+                        Focused on React, clean UI, and real-world problem solving. 
                     </p>
                 </Typography>
-                <Typography variant="h4" gutterBottom>Київська Православна Богословська Академія</Typography>
+                <Typography variant="h4" gutterBottom>SKILLS</Typography>
                 <Typography variant="body1" component="div" gutterBottom>
-                    <p>2012-2016</p>
-                    <p>Отримав диплом Бакалавра Теології, викладача Релігієзнавства</p>
-                    <img src={dyplomFront} alt="dyplomFront" />
-                    <img src={dyplomBack} alt="dyplomBack" />
+                    <p>
+                        HTML5, CSS3 (Flexbox, Grid), Responsive Design
+                        JavaScript (ES6+), DOM, Events
+                        Async (Promises, async/await, fetch)
+                        Web Storage
+                    </p>
+                    <p>
+                        Frameworks & Libraries: React, Redux, MUI
+                    </p>
+                    <p>
+                        Tools: Git, GitHub, npm Webpack, Babel
+                    </p>
+                    <p>
+                        Back-End (basic): Node.js, Express MongoDB
+                    </p>
                 </Typography>
-                <Typography variant="h4" gutterBottom>Досвід роботи</Typography>
+                <Typography variant="h4" gutterBottom>EXPERIENCE</Typography>
                 <Typography variant="body1" gutterBottom component="div">
-                <ul>
-                    <li>2012-2016 Володимирський кафедральний собор Україна м.Київ</li>
-                    <li>2017 Comfy, Foxtrot - продавець консультант Україна м.Київ</li>
-                    <li>2018-2022 Оператор листозгинального преса з ЧПК Польща</li>
-                    <li>2022-2025 Оператор листозгинального преса з ЧПК Канада</li>
-                    <li>2025 Оператор листозгинального преса з ЧПК Польща</li>
-                </ul>
+                    <p>CNC Press Brake Operator <br /> Canada / Poland | 2018–2026</p>
+                    <ul>
+                        <li>Worked with technical drawings and precise measurements</li>
+                        <li>Programmed and operated CNC press brake machines</li>
+                        <li>Solved complex manufacturing problems</li>
+                        <li>Maintained high accuracy and quality standards</li>
+                    </ul>
                 </Typography>
-                <Typography variant="h4" gutterBottom>Навички</Typography>
-                <Typography variant="h5" gutterBottom>Мови</Typography>
+                <Typography variant="h4" gutterBottom>EDUCATION</Typography>
+                <Typography variant="body1" gutterBottom component="div"></Typography>
+                    <p>Front-End PRO Course <br /> Hillel IT School (2025/10)</p>
+                    <img src={dyplom} className="dyplomImg" alt="dyplom" />
+                    <p>Bachelor of Theology <br />Kyiv Orthodox Theological Academy (2012–2016)</p>
+                <Typography variant="h4" gutterBottom>LANGUAGES</Typography>
                 <Typography variant="body1" gutterBottom component="div">
                     <ul>
-                        <li>Українська native</li>
-                        <li>Англійська B1</li>
-                        <li>Польська B1</li>
+                        <li>Ukrainian – Native</li>
+                        <li>English – B1</li>
+                        <li>Polish – B1</li>
                     </ul>
                     
                 </Typography>
-                <Typography variant="h5" gutterBottom>Front-End</Typography>
-                <Typography variant="body1" gutterBottom component="div">
-                    <ul>
-                        <li>HTML5, CSS3 – семантична розмітка, адаптивна та кросбраузерна верстка, Flexbox, CSS Grid, медіа-запити.</li>
-                        <li>JavaScript (ES6+) – робота з масивами та об’єктами, функції (колбеки, стрілкові функції, замикання, рекурсія), ООП, класи, модулі.</li>
-                        <li>DOM та Events – динамічне оновлення контенту, робота з подіями, делегування подій.</li>
-                        <li>Асинхронність – Promise, async/await, fetch API.</li>
-                        <li>Web Storage – localStorage, sessionStorage.</li>
-                        <li>Форми – валідація, обробка подій.</li>
-                    </ul>
-                    <Typography variant="h5" gutterBottom>Інструменти та середовище</Typography>
-                    <ul>
-                        <li>Git та GitHub – створення репозиторіїв, коміти, робота з гілками, pull requests.</li>
-                        <li>npm, Node.js – використання пакетів, скриптів.</li>
-                        <li>Webpack, Babel – налаштування збірки проєктів.</li>
-                    </ul>
-                    <Typography variant="h5" gutterBottom>Фреймворки та бібліотеки</Typography>
-                    <ul>
-                        <li>React – створення компонентів, пропси, стан (state), хуки, JSX.</li>
-                        <li>Redux – менеджмент стану застосунку (actions, reducers, store).</li>
-                        <li>Material-UI (MUI) – використання готових UI-компонентів.</li>
-                    </ul>
-                    <Typography variant="h5" gutterBottom>Back-End (базово)</Typography>
-                    <ul>
-                        <li>Основи Node.js і Express для роботи з API.</li>
-                        <li>MongoDB – базова робота з базами даних.</li>
-                    </ul>
-                </Typography>
             </div>
                 <article>
-                    <ImageList sx={{ width: 400, height: 600, margin: 5 }}>
+                    <ImageList sx={{ width: 350, height: 600, margin: 5 }}>
                         <ImageListItem key="Subheader" cols={2}>
                             <ListSubheader component="div">GItHub works</ListSubheader>
                         </ImageListItem>

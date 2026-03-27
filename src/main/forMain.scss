@@ -4,6 +4,11 @@ img {
     padding: 10px;
 }
 
+.dyplomImg {
+    height: 400px;
+    width: auto;
+}
+
 main {
     display: flex;
     gap: 20px;
@@ -33,6 +38,7 @@ footer {
 }
 
 #myPhoto {
+    padding-top: 300px;
     display: flex;
     justify-content: center;
 }
