@@ -1,8 +1,10 @@
 .star-wars-bg-container {
   background-image: url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhciUyMHdhcnMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D");
   background-size: cover;
-  width: 500px;
-  height: 100vh;
+  background-position: center;
+  width: 100%;
+  max-width: 500px;
+  min-height: 100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -18,6 +20,7 @@
   text-align: center;
   animation: crawl 90s linear forwards;
   transform-origin: 50% 100%;
+  padding: 0 10px;
 }
 
 @keyframes crawl {
@@ -33,14 +36,12 @@
 
 .containerSwapi {
   background-color: black;
-  padding-top: 30px;
+  padding: 30px 20px;
   display: flex;
-  gap: 100px;
+  gap: 30px;
 }
 
 .rightContainer {
-  justify-content: center;
-  padding-right: 200px;
   flex: 1;
     h1 {
       text-align: center;
@@ -57,4 +58,25 @@
 
 .select {
   background-color: rgb(106, 106, 90);
+}
+
+@media (max-width: 768px) {
+  .containerSwapi {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .star-wars-bg-container {
+    max-width: 100%;
+    min-height: 60vh;
+  }
+
+  .rightContainer {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .star-wars-crawl {
+    font-size: clamp(0.9rem, 4vw, 1.4rem);
+  }
 }
