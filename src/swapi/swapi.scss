@@ -8,29 +8,28 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  perspective: 400px;
 }
 
 .star-wars-crawl {
-  position: relative;
-  top: 100px;
+  width: 90%;
   font-family: "Arial Black", sans-serif;
-  font-size: 2rem;
+  font-size: clamp(1rem, 3vw, 2rem);
   color: yellow;
   text-align: center;
-  animation: crawl 90s linear forwards;
   transform-origin: 50% 100%;
+  animation: crawl 150s linear forwards;
   padding: 0 10px;
 }
 
 @keyframes crawl {
   0% {
-    top: 100%;
-    transform: rotateX(20deg) translateZ(0);
+    transform: rotateX(25deg) translateY(100%);
   }
+
   100% {
-    top: -200%;
-    transform: rotateX(25deg) translateZ(-500px);
+    transform: rotateX(25deg) translateY(-350%);
   }
 }
 
@@ -39,21 +38,23 @@
   padding: 30px 20px;
   display: flex;
   gap: 30px;
+  align-items: flex-start;
 }
 
 .rightContainer {
   flex: 1;
-    h1 {
-      text-align: center;
-      } 
+
+  h1 {
+    text-align: center;
+  }
 }
 
 .peopleStyle {
   color: yellow;
 }
 
-#demo-simple-select-label { 
- color: yellow;
+#demo-simple-select-label {
+  color: yellow;
 }
 
 .select {
@@ -64,19 +65,31 @@
   .containerSwapi {
     flex-direction: column;
     gap: 20px;
+    padding: 20px 10px;
   }
 
   .star-wars-bg-container {
     max-width: 100%;
-    min-height: 60vh;
+    min-height: 70vh;
+  }
+
+  .star-wars-crawl {
+    width: 85%;
+    font-size: clamp(0.9rem, 4vw, 1.4rem);
+    animation: crawlMobile 45s linear forwards;
   }
 
   .rightContainer {
     width: 100%;
-    padding-right: 0;
+  }
+}
+
+@keyframes crawlMobile {
+  0% {
+    transform: rotateX(25deg) translateY(100%);
   }
 
-  .star-wars-crawl {
-    font-size: clamp(0.9rem, 4vw, 1.4rem);
+  100% {
+    transform: rotateX(25deg) translateY(-250%);
   }
 }
