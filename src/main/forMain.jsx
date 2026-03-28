@@ -130,6 +130,8 @@ const Main = () => {
                 <Typography variant="h3" gutterBottom>Front-End Developer</Typography>
                 <Typography variant="h4" gutterBottom>ABOUT ME</Typography>
                 <Typography variant="body1" gutterBottom component="div">
+                    <div className="about-me">
+                    <div>
                     <p> I am a Front-End Developer based in Winnipeg, Canada.
                         I have a strong technical background as a CNC press brake operator with 8+ years of experience, which taught me precision, problem-solving, and working with complex technical drawings.
                         Recently, I transitioned into web development and completed a Front-End PRO course, where I gained practical experience building web applications using JavaScript, React, and modern tools.
@@ -138,6 +140,11 @@ const Main = () => {
                     <p>I build responsive and user-friendly web applications using modern JavaScript technologies.
                         Focused on React, clean UI, and real-world problem solving. 
                     </p>
+                    </div>
+                    <div id="myPhoto">
+                        <img src={myPhoto} alt="myPhoto" />
+                    </div>
+                    </div>
                 </Typography>
                 <Typography variant="h4" gutterBottom>SKILLS</Typography>
                 <Typography variant="body1" component="div" gutterBottom>
@@ -145,7 +152,6 @@ const Main = () => {
                         HTML5, CSS3 (Flexbox, Grid), Responsive Design
                         JavaScript (ES6+), DOM, Events
                         Async (Promises, async/await, fetch)
-                        Web Storage
                     </p>
                     <p>
                         Frameworks & Libraries: React, Redux, MUI
@@ -213,9 +219,6 @@ const Main = () => {
                         </ImageListItem>
                     ))}
                     </ImageList>
-                    <div id="myPhoto">
-                        <img src={myPhoto} alt="myPhoto" />
-                    </div>
                  </article>
         </main>
         <footer>

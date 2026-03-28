@@ -1,18 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
 img {
-    width: 300px;
+    max-width: 100%;
     height: auto;
     padding: 10px;
+    display: block;
 }
 
 .dyplomImg {
-    height: 400px;
-    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 main {
     display: flex;
     gap: 20px;
-    background-image: url('../img/svg.svg');
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -22,9 +28,8 @@ h1, h2, h3, h4, h5 {
 .mainContent {
     padding-left: 30px;
     background-color: rgb(246, 241, 236);
+    flex: 1;
 }
-
-
 
 footer {
     padding-top: 30px;
@@ -32,17 +37,45 @@ footer {
     justify-content: center;
     gap: 30px;
     background-color: antiquewhite;
-    .avatar{
+    flex-wrap: wrap;
+
+    .avatar {
         background-color: rgb(247, 248, 248);
     }
 }
 
-#myPhoto {
-    padding-top: 300px;
-    display: flex;
-    justify-content: center;
+#myPhoto img {
+    border-radius: 10%;
+    margin: 0 auto;
 }
 
+.about-me {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .mainContent {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about-me {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
 
 
 
